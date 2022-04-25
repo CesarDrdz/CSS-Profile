@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header {
+    background-color: black;
+    min-height: 55px;
+}
+
+.container {
+    background-color: aqua;
+    width: 1000px;
+    min-height: 50px;
+    margin: 0 auto;
+}
+
+main {
+    min-height: 500px;
+}
+
+.lc {
+    flex: 2;
+}
+
+.rc {
+    
+    
+    flex: 1;
+    align-self: flex-start;
+}
+
+.btn {
+    align-self: flex-end;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+
+}
+
